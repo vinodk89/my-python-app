@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying application...'
-                # Add deployment steps (e.g., Docker, SSH, AWS)
+                // Add deployment steps (e.g., Docker, SSH, AWS)
             }
         }
     }
