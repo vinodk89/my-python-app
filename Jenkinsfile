@@ -8,5 +8,11 @@ pipeline {
                     url: 'https://github.com/vinodk89/my-python-app.git'
             }
         }
+
+        stage('Run Tests'){
+            steps {
+                sh 'pytest tests/'
+            }
+        }
     }
 }
